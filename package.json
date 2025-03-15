@@ -1,13 +1,10 @@
 {
-  "homepage": "https://mustafa-mmd.github.io/myportfolio",
+  "homepage": "https://mustafa-mmd.github.io/mustafa_jamal_portfolio",
   "name": "mustafa-ract-portfolio",
-  
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
@@ -30,7 +27,7 @@
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
     "vite": "^5.4.1"
   }
