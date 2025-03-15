@@ -1,0 +1,79 @@
+
+.pic{
+  width: 90px;
+  height: 90px;
+}
+#bg{
+  background-color: azure;
+}
+.skillbox{
+  padding: 10px;
+  height: 170px;
+  width: 150px;
+  /* background-color: rgb(58, 61, 62); */
+  background-color: #cbc3f58e;
+  border: 2px solid rgb(71, 70, 70);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  
+}
+.skillwraper{
+  display: flex;
+  flex: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  /* background-color: #05051d; */
+}
+/* .skillpercent{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #17202a;
+  border: 1px solid whitesmoke;
+  padding-top: 40px;
+  text-align: center;
+animation: rotate 2s linear infinite;
+} */
+h5{
+  margin: 0px;
+  padding: 0px;
+}
+/* @keyframes rotate {
+  
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+} */
+@media screen and (max-width:767px) {
+
+  .skillwraper{
+  display: grid;
+  margin-left: 15%;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  /* height: 1450px;
+  width: 800px; */
+  /* margin-bottom: 450px; */
+}
+/* .skillbox{
+  height: 170px;
+  width: 200px;
+  font-size: 1.9rem;
+  font-size: 2.1rem;
+} */
+
+/* .skillpercent{
+  width: 85px;
+  height: 85px;
+  padding-top:20px ;
+} */
+}

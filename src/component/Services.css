@@ -1,0 +1,32 @@
+/* .dot{
+  color: orangered;
+} */
+ 
+.servicecont{
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  row-gap: 20px;
+  /* background-color: #6734e9; */
+  background: linear-gradient(#6734e9,#5de0e7);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width:767px){
+  .servicecont{
+    display: grid;
+    grid-template-columns:1fr;
+    place-items: center;
+    padding-left: 20px;
+    width: 800px;
+    gap: 10px;
+    margin-left: 15%;
+  }
+  
+}
+@media (max-width:1260px){
+.servicecont{
+  flex-wrap: wrap;
+}
+}

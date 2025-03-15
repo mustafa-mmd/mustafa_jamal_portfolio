@@ -1,0 +1,46 @@
+.butt{
+  background-color:#fff;
+  /* border-radius: 5px; */
+  height: 55px;
+  width: 150px;
+  border: none;
+  box-shadow: 5px 5px 2px rgb(100, 65, 49);
+color:black;
+position: relative;
+font-size: larger;
+z-index: 1;
+margin-bottom: 20px;
+cursor: pointer;
+transition:0.3s ease-in-out ;
+}
+.butt:hover{
+  /* width: 125px;
+  height: 45px;*/
+} 
+.butt::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: 0 100%;
+ font-size: larger;
+  background-color: #6627f086;
+  transition: all 1s;
+  z-index: -1;
+  /* border-radius: 5px; */
+  
+}
+.butt:hover::before {
+  transform: scaleX(1);
+  color:#fff
+ }
+ @media  screen and (max-width:767px) {
+.butt{
+  height: 30px;
+  width: 100px;
+  font-size: small;
+}
+ }

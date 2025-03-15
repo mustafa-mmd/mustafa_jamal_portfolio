@@ -1,0 +1,39 @@
+.socialicon{
+  display: flex;
+  gap: 20px;
+padding-top: 10px;
+margin:0px;
+justify-content: center;
+align-items: center;
+}
+.container{
+  /* margin-bottom: 150px; */
+  padding-left: 30px;
+
+  
+}
+.socialicon button{
+  color: aliceblue;
+  transition: all 1s;
+  background-color: #17202a;
+  border: 1px solid orangered;
+}
+.socialicon button:hover{
+ transform: translateY(-10px);
+ cursor: pointer;
+}
+@media screen and (max-width:767px) {
+  .container{
+  height:auto;
+  /* width: 800px; */
+  padding-left: 20px;
+  margin: 0;
+}
+
+.socialicon{
+  padding-top: 90px;
+  /* gap: 40px; */
+}
+  
+  
+}
