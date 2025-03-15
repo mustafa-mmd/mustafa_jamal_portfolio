@@ -22,24 +22,24 @@ function SocialIcon() {
     <div className='container'>
     <div className='socialicon'>
       <button onClick={() => openLink('https://www.facebook.com/profile.php?id=100070852429456&mibextid=ZbWKwL')}>
-        <FacebookIcon className='icon' style={{ fontSize: 45 }}/>
+        <FacebookIcon className='icon' style={{ fontSize: 35 }}/>
       </button>
       <button onClick={() => openLink('https://www.instagram.com/mustafajamal897?igsh=cmkyZTJhZHozNzVz')}>
-        <InstagramIcon className='icon' style={{ fontSize: 45 }}/>
+        <InstagramIcon className='icon' style={{ fontSize: 35 }}/>
       </button>
       <button onClick={() => openLink('https://wa.me/923479749239')}>
-        <WhatsAppIcon className='icon' style={{ fontSize: 45 }}/>
+        <WhatsAppIcon className='icon' style={{ fontSize: 35 }}/>
       </button>
       <button onClick={() => openLink('https://www.linkedin.com/in/mustafa-jamal-60080228b')}>
-        <LinkedInIcon className='icon' style={{ fontSize: 45 }}/>
+        <LinkedInIcon className='icon' style={{ fontSize: 35 }}/>
 </button>
         <button onClick={mailHandle}>
-        <MailIcon className='icon' style={{ fontSize: 45 }}/>
+        <MailIcon className='icon' style={{ fontSize: 35 }}/>
         
       </button>
       
       <button onClick={() => openLink('https://github.com/mustafa-mmd')}>
-        <GitHubIcon className='icon' style={{ fontSize: 45 }}/>
+        <GitHubIcon className='icon' style={{ fontSize: 35 }}/>
       </button>
       
     </div>

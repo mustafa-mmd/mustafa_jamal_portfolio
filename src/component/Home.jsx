@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css";
 import img from "../assets/mus.jpeg"
 import Button from './Button'
+import Socialicon from './Socialicon';
 import { useEffect } from 'react';
 
 function Home() {
@@ -34,13 +35,13 @@ function Home() {
 <Button/>
          
      
-    
+<Socialicon/>
     </div>
     <img src={img} className='profile' alt='img'></img>
     
     </div>
     
-
+    
     
     </>
   )

@@ -1,4 +1,4 @@
-.serviceCard{
+/* .serviceCard{
   width: 250px;
   height: 200px;
   background-color: #011e32;
@@ -41,14 +41,142 @@
  }
  h3{
   color: rgb(183, 234, 248);
- }
+ } */
 
- /* @media screen and (max-width:768px) {
+ 
+ /* Main Service Card Styling */
+.serviceCard {
+  width: 280px;
+  height: 220px;
+  background-color: #011e32;
+  border-radius: 12px;
+  z-index: 1;
+  padding: 10px;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0px 5px 15px rgba(1, 30, 50, 0.3);
+  overflow: hidden;
+}
 
-  .serviceCard{
-    width: 760px;
-    height: 320px;
-  font-size: 2.2rem;
-  padding: 20px;
- }
-} */
+/* Glowing Border Effect */
+.serviceCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #00ca4e, #ffbd44, #ff605c);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* Card Hover Effect */
+.serviceCard:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0px 10px 25px rgba(255, 189, 68, 0.4);
+}
+
+/* Glow Effect on Hover */
+.serviceCard:hover::before {
+  opacity: 0.5;
+}
+
+/* Top Icon Tools (Colored Dots) */
+.tools {
+  display: flex;
+  align-items: center;
+  padding: 9px;
+}
+
+.circle {
+  padding: 0 4px;
+}
+
+.box {
+  display: inline-block;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  padding: 1px;
+  border-radius: 50%;
+}
+
+/* Red, Yellow, Green Icons */
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
+/* Content Area */
+.card__content {
+  text-align: center;
+  padding: 15px;
+}
+
+/* Heading */
+.card__content h3 {
+  color: rgb(183, 234, 248);
+  font-size: 1.4rem;
+  font-weight: bold;
+  transition: color 0.4s ease-in-out;
+}
+
+/* Description */
+.card__content p {
+  color: #e0e0e0;
+  font-size: 1rem;
+  margin-top: 10px;
+  opacity: 0.85;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* Hover Effects */
+.serviceCard:hover .card__content h3 {
+  color: #ffbd44;
+}
+
+.serviceCard:hover .card__content p {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .serviceCard {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .card__content h3 {
+    font-size: 1.2rem;
+  }
+
+  .card__content p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .serviceCard {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .card__content h3 {
+    font-size: 1.1rem;
+  }
+
+  .card__content p {
+    font-size: 0.85rem;
+  }
+}

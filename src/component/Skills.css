@@ -1,79 +1,156 @@
+/* ======== Global Styles for Skills Section ======== */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00ca4e;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  animation: fadeIn 1.2s ease-in-out;
+}
 
-.pic{
-  width: 90px;
-  height: 90px;
-}
-#bg{
-  background-color: azure;
-}
-.skillbox{
-  padding: 10px;
-  height: 170px;
-  width: 150px;
-  /* background-color: rgb(58, 61, 62); */
-  background-color: #cbc3f58e;
-  border: 2px solid rgb(71, 70, 70);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+/* Wrapper for All Skills */
+.skillwraper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
-  align-items: center;
-  
-}
-.skillwraper{
-  display: flex;
-  flex: wrap;
-  gap: 10px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
-  /* background-color: #05051d; */
+  padding: 20px;
 }
-/* .skillpercent{
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #17202a;
-  border: 1px solid whitesmoke;
-  padding-top: 40px;
-  text-align: center;
-animation: rotate 2s linear infinite;
-} */
-h5{
-  margin: 0px;
-  padding: 0px;
-}
-/* @keyframes rotate {
-  
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-  
-} */
-@media screen and (max-width:767px) {
 
-  .skillwraper{
-  display: grid;
-  margin-left: 15%;
-  place-items: center;
-  grid-template-columns: 1fr 1fr;
-  /* height: 1450px;
-  width: 800px; */
-  /* margin-bottom: 450px; */
+/* Individual Skill Box */
+.skillbox {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 15px rgba(1, 30, 50, 0.3);
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  animation: floatAnimation 4s infinite ease-in-out;
 }
-/* .skillbox{
-  height: 170px;
-  width: 200px;
-  font-size: 1.9rem;
-  font-size: 2.1rem;
-} */
 
-/* .skillpercent{
-  width: 85px;
-  height: 85px;
-  padding-top:20px ;
-} */
+/* Glow Effect */
+.skillbox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 20%, transparent 80%);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* Hover Effects */
+.skillbox:hover {
+  transform: translateY(-8px) scale(1.1);
+  box-shadow: 0px 10px 25px rgba(255, 189, 68, 0.4);
+}
+
+.skillbox:hover::before {
+  opacity: 0.5;
+}
+
+/* === FIXED LOGO SIZES === */
+.pic {
+  width: 70px !important;
+  height: 70px !important;
+  object-fit: contain;
+  margin-top: 10px;
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Rotate Effect on Hover */
+.skillbox:hover .pic {
+  transform: rotateY(360deg);
+}
+
+/* Skill Name */
+h5 {
+  color: #e0e0e0;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+/* Show Text on Hover */
+.skillbox:hover h5 {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ========= Animations ========= */
+
+/* Floating Animation */
+@keyframes floatAnimation {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* Fade In */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .skillwraper {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .pic {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillwraper {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+  .skillbox {
+    padding: 15px;
+  }
+  .pic {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  h5 {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skillwraper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .skillbox {
+    padding: 12px;
+  }
+  .pic {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
 }

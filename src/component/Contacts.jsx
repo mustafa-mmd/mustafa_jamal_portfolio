@@ -36,7 +36,7 @@ const onsubmit = async (event) => {
 //second methoe web3forms
   return (
     
-    <>
+    <div className='contact'>
     <div className='form'>
     
     <h1>Send Message</h1>
@@ -62,12 +62,12 @@ const onsubmit = async (event) => {
   
     
      
-    <div className="fotersocialicon" style={{marginBottom:"10px"}}><SocialIcon /></div>
+    <div className="fotersocialicon"><SocialIcon /></div>
     
     
     <ul className="fullfoter">
     
-      <li> frontend development</li>
+ <li> frontend development</li>
 <li>web development</li>
 <li>responsive web design</li>
 <li>react development</li>
@@ -75,7 +75,7 @@ const onsubmit = async (event) => {
     </ul>
     
    
-    </>
+    </div>
   )
 
   

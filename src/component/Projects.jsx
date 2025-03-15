@@ -5,7 +5,7 @@ import img1 from "../assets/blog1.jpeg"
 import img2 from "../assets/ecommerce.png"
 import img3 from "../assets/razerpay.jpeg"
 import img4 from "../assets/chair2.jpeg"
-import img5 from "../assets/cycle.jpg"
+import img5 from "../assets/cycle.jpeg"
 import img6 from "../assets/gallery.jpeg"
 import img7 from "../assets/coffe.jpg"
 import img8 from "../assets/weatherapp.jpeg"
@@ -16,7 +16,7 @@ import img12 from "../assets/passwordgen.jpg"
 import img13 from "../assets/counter.jpeg"
 import img14 from "../assets/calculator.jpg"
 import img15 from "../assets/clg.png"
-import img16 from "../assets/user detail list.png"
+import img16 from "../assets/userlist.jpeg"
 import img17 from "../assets/reactecommerce.png"
 
 function Projects() {
@@ -32,7 +32,7 @@ function Projects() {
         grow your buisness
         Accept payments from customers.Automates payout to vendors and employees.Never run out of working capital." title="Razerpay" url="https://mustafa-mmd.github.io/razerpay/"  img={img3}/> */}
 
-      <Card descripition="Here you can find Modern chairif you have to need any type of chair you can easily buy here Anytypes of varities available here .And the price is also low so visit our website." title="Modern Chairs" url="https://mustafa-mmd.github.io/Modern-Chair/"  img={img4}/>
+      <Card descripition="Here you can find Modern chair if you have to need any type of chair you can easily buy here Anytypes of varities available here .And the price is also low so visit our website." title="Modern Chairs" url="https://mustafa-mmd.github.io/Modern-Chair/"  img={img4}/>
 
       <Card descripition="This is about adventures they will show multiple adevetures pictures its a paralax and the pictures is fixed text is moving on the pictures." title="Paralax" url="https://mustafa-mmd.github.io/paralax-effect/"  img={img5}/>
 

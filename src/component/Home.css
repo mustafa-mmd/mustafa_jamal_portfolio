@@ -1,11 +1,13 @@
-.herosection{
+/* .herosection{
   padding: 30px;
   display: flex;
   justify-content: space-between;
-  width:auto;
+  width:100%;
+  
   padding-bottom:10px ;
   padding-top: 20px;
   background: linear-gradient( #242425, #00070e5d ,#7327f594);
+  
 }
 .intro{
 display: flex;
@@ -33,34 +35,30 @@ gap: 30px;
 border-radius: 20px;
 border-top: 2px solid;
 border-bottom: 2px solid;
- }
- .wraper{
-  height: 50%;
-  width: 100%;
- }
+ } */
+ 
  
  /* for responsivness */
-
+/* 
  @media screen and (max-width:767px){
   .herosection{
     height:auto;
-    /* font-size: 2rem; */
+    flex-direction: column-reverse;
     display: flex;
-    /* width: 800px; */
-    /* width: 980px; */
-    gap: 50px;
+    width: 100%;
+    gap: 25px;
     
   }
   
   .profile{
-    width: 300px;
-    height: 400px;
+    width: 320px;
+    height: 350px;
   border-radius: 20px;
   border-top: 2px solid;
   border-bottom: 2px solid;
    }
    .intro{
-    gap: 60px;
+    gap: 30px;
    }
    h2{
     font-size: 1.2rem;
@@ -68,6 +66,240 @@ border-bottom: 2px solid;
    h4{
     font-size: 1.2rem;
    }
+   h1{
+    font-size: 1.3px;
+   }
  }
  
- 
+  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&display=swap');
+
+  /* Hero Section */
+  .herosection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Left Section */
+  .intro {
+    flex: 1;
+    max-width: 50%;
+    animation: slideInLeft 1s ease-in-out;
+  }
+  
+  .intro h1 {
+    font-size: 42px;
+    font-family: "Playfair Display", serif;
+    color: #ff758c;
+    margin-bottom: 10px;
+    animation: fadeUp 1.2s ease-in-out;
+  }
+  
+  .animated-text {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #f8c291;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #f8c291;
+    display: inline-block;
+    padding-right: 5px;
+    animation: typing 3s steps(30) infinite alternate, blink 0.7s infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .intro h4 {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #ddd;
+    margin: 8px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 1s ease-in-out forwards 0.5s;
+  }
+  
+  /* Buttons */
+  .button-container {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .btn-primary:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(255, 65, 108, 0.5);
+  }
+  
+  /* Profile Image */
+  .profile {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 6px 12px rgba(255, 65, 108, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: zoomIn 1s ease-in-out;
+  }
+  
+  .profile:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 15px rgba(255, 65, 108, 0.5);
+  }
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .social-icons a {
+    font-size: 22px;
+    color: #ff758c;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* 🔹 Responsive Design */
+  @media (max-width: 1024px) {
+    .herosection {
+      flex-direction: column-reverse;
+      text-align: center;
+      padding: 50px 5%;
+    }
+  
+    .intro {
+      max-width: 100%;
+    }
+  
+    .profile {
+      width: 280px;
+    }
+  
+    .button-container {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .herosection {
+      padding: 40px 5%;
+    }
+  
+    .intro h1 {
+      font-size: 36px;
+    }
+  
+    .animated-text {
+      font-size: 24px;
+    }
+  
+    .profile {
+      width: 240px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .herosection {
+      padding: 30px 5%;
+    }
+  
+    .intro h1 {
+      font-size: 30px;
+    }
+  
+    .animated-text {
+      font-size: 20px;
+    }
+  
+    .profile {
+      width: 200px;
+    }
+  }
+  
+  
