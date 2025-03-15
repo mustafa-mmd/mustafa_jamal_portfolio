@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-scroll"; // ✅ Use react-scroll instead of NavLink
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import "./Navbar.css";
@@ -12,49 +12,53 @@ function Navbar() {
   };
 
   return (
-    <div className="nav">
-      <nav className="navbar">
-        <h1 className="logo">Mustafa Jamal</h1>
+    <nav className="navbar">
+      <h1 className="logo">MJ Creations</h1> 
 
-        <ul className={`nav-links ${isOpen ? "open" : ""}`}>
-          <li>
-            <NavLink to="/" exact activeClassName="active" onClick={toggleNavbar}>
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/about" activeClassName="active" onClick={toggleNavbar}>
-              About
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/skills" activeClassName="active" onClick={toggleNavbar}>
-              Skills
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/services" activeClassName="active" onClick={toggleNavbar}>
-              Services
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/projects" activeClassName="active" onClick={toggleNavbar}>
-              Projects
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact" activeClassName="active" onClick={toggleNavbar}>
-              Contact
-            </NavLink>
-          </li>
-        </ul>
+      {/*  Hamburger Menu */}
+      <div className="hamburger" onClick={toggleNavbar}>
+        {isOpen ? <CloseIcon /> : <MenuIcon />}
+      </div>
 
-        <div className="hamburger" onClick={toggleNavbar}>
-          {isOpen ? <CloseIcon style={{ fontSize: 40 }} /> : <MenuIcon style={{ fontSize: 40 }} />}
-        </div>
-      </nav>
-    </div>
+      {/*  Navigation Menu */}
+      <ul className={`nav-links ${isOpen ? "open" : ""}`}>
+        <li>
+          <Link to="home" smooth={true} duration={500} offset={-94} onClick={toggleNavbar}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="about" smooth={true} duration={500} offset={-94} onClick={toggleNavbar}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="skillwraper" smooth={true} duration={500} offset={-94} onClick={toggleNavbar}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to="servicecont" smooth={true} duration={500} offset={-94} onClick={toggleNavbar}>
+            Services
+          </Link>
+        </li>
+        <li>
+          <Link to="procont" smooth={true} duration={500} offset={-138} onClick={toggleNavbar}>
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link to="contact" smooth={true} duration={500} offset={-94} onClick={toggleNavbar}>
+            Contact
+          </Link>
+        </li>
+      </ul>
+
+      {/*  Dark Overlay for Mobile Menu */}
+      {isOpen && <div className="overlay" onClick={toggleNavbar}></div>}
+    </nav>
   );
 }
 
 export default Navbar;
+

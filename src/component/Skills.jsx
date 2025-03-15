@@ -12,7 +12,7 @@ import img8 from "../assets/github.png"
 function Skills() {
   return (
     <>
-      <h1>Skills</h1>
+      <h1 className='skills'>Skills</h1>
       <div className='skillwraper'>
 <div className='skillbox'><img className='pic' src={img1}/>
 

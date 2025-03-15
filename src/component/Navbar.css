@@ -1,146 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Great+Vibes&display=swap");
 
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
-  width: 100%;
-  background-color: #242424;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(90deg, #302b63, #24243e);
+  padding: 15px 8%;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.hamburger {
-  display: none;
+ /*  Stylish Logo Design */
+.logo {
+  font-size: 30px;
+  font-family: "Great Vibes", cursive;
+  color: white;
+  text-transform: capitalize;
+  font-style: italic;
+  transition: 0.3s;
   cursor: pointer;
 }
 
+.logo:hover {
+  transform: scale(1.1);
+  color: #ff758c;
+}
+
+/*  Default Navbar Links */
 .nav-links {
-  list-style-type: none;
   display: flex;
-  gap: 25px;
+  list-style: none;
+  gap: 20px;
 }
 
 .nav-links li a {
   text-decoration: none;
-  color: white;
   font-size: 18px;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-/* Active Link Styling */
-.nav-links li .active {
-  color: #e81cff;
-  font-weight: 600;
-}
-
-.nav-links li a:hover {
-  color: #e85ff7;
-}
-
-
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@600&display=swap');
-
-.logo {
-  font-family: "Great Vibes", cursive; /* Curly and stylish */
-  font-size: 36px; /* Default size for larger screens */
-  font-weight: 600;
-  font-style: italic;
   color: white;
-  background: linear-gradient(45deg, #ff7eb3, #ff758c); /* Soft pink-red gradient */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; /* Gradient text effect */
-  letter-spacing: 2px; /* Spaced-out for elegance */
-  text-shadow: 2px 2px 15px rgba(255, 65, 108, 0.7);
-  position: relative;
-  display: inline-block;
-  padding: 5px 10px;
-  transition: all 0.3s ease-in-out;
-  white-space: nowrap; /* Prevents breaking on smaller screens */
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-/* Hover Effect */
-.logo:hover {
-  text-shadow: 0 0 20px rgba(255, 65, 108, 1);
-  transform: scale(1.08);
+.nav-links a:hover,
+.nav-links .active {
+  background: #ff758c;
+  color: white;
 }
 
-/* Stylish Underline Animation */
-.logo::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  width: 100%;
-  height: 3px;
-  background: linear-gradient(45deg, #ff7eb3, #ff758c);
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s ease-in-out;
+/*  Hamburger Menu (Hidden on Desktop) */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
 }
 
-.logo:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-
-/* 🔹 Responsive Design */
-@media (max-width: 1024px) {
-  .logo {
-    font-size: 30px; /* Adjust for tablets */
-  }
-}
-
-@media (max-width: 768px) {
-  .logo {
-    font-size: 26px; /* Adjust for smaller tablets */
-  }
-}
-
-@media (max-width: 480px) {
-  .logo {
-    font-size: 22px; /* Adjust for mobile screens */
-  }
-}
-
-
-
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .navbar {
-    padding: 15px 20px;
-  }
-
+/* Responsive Navbar */
+@media (max-width: 900px) {
   .hamburger {
     display: block;
+    z-index: 1100;
+    font-size: 35px;
   }
 
   .nav-links {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background: #302b63;
+    width: 280px;
+    height: 100vh;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    transform: translateY(-100%);
-    transition: transform 0.4s ease-in-out;
-    padding: 20px 0;
+    padding-top: 100px;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: right 0.4s ease-in-out;
   }
 
   .nav-links.open {
-    transform: translateY(0);
+    right: 0;
   }
 
   .nav-links li {
-    margin: 10px 0;
+    margin: 15px 0;
   }
 
-  .nav-links li a {
-    font-size: 20px;
-    padding: 10px;
+  /*  Dark Overlay when Menu Opens */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
   }
 }
