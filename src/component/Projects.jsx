@@ -5,7 +5,7 @@ import img1 from "../assets/blog1.jpeg"
 import img2 from "../assets/ecommerce.png"
 import img3 from "../assets/razerpay.jpeg"
 import img4 from "../assets/chair2.jpeg"
-import img5 from "../assets/cycle.jpeg"
+import img5 from "../assets/sunglass.jpg"
 import img6 from "../assets/gallery.jpeg"
 import img7 from "../assets/coffe.jpg"
 import img8 from "../assets/weatherapp.jpeg"
@@ -34,7 +34,7 @@ function Projects() {
 
       <Card descripition="Here you can find Modern chair if you have to need any type of chair you can easily buy here Anytypes of varities available here .And the price is also low so visit our website." title="Modern Chairs" url="https://mustafa-mmd.github.io/Modern-Chair/"  img={img4}/>
 
-      <Card descripition="This is about adventures they will show multiple adevetures pictures its a paralax and the pictures is fixed text is moving on the pictures." title="Paralax" url="https://mustafa-mmd.github.io/paralax-effect/"  img={img5}/>
+      <Card descripition="Step into style with our premium sunglasses! Trendy, UV-protected, and designed for ultimate comfort. Shop now and elevate your look! " title="sunglasses store" url="https://pakshades-8gz5.vercel.app/"  img={img5}/>
 
       <Card descripition="This is my image gallery.created by html and css its very amaizing and good design and also include hover effects and multiple pictures are present in this gallery." title="Gallery" url="https://mustafa-mmd.github.io/gallery-img-project/"  img={img6}/>
 
