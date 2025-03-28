@@ -3,7 +3,7 @@ import "./Projects.css"
 import Card from './Card'
 import img1 from "../assets/blog1.jpeg"
 import img2 from "../assets/ecommerce.png"
-import img3 from "../assets/razerpay.jpeg"
+import img3 from "../assets/luxhaven.jpeg"
 import img4 from "../assets/chair2.jpeg"
 import img5 from "../assets/sunglass.jpg"
 import img6 from "../assets/gallery.jpeg"
@@ -24,17 +24,18 @@ function Projects() {
     <>
       <h1>projects</h1>
       <div className='procont'>
-      <Card descripition="Time to get your house clean and in order.To  have a good air quality is as simple as moving away from the city to a quiet suburb or rural enviroment" title="Smart.uv " url="https://mustafa-mmd.github.io/Blog-Website-1/" img={img1}/>
 
-      <Card descripition="We help you make modern interior.We will help you to make an elegant and luxurious interior designed by professional interior designer." title="Furni.interior design" url="https://mustafa-mmd.github.io/ecommerce-websit/"  img={img2}/>
+   <Card descripition="Welcome to Luxe Haven
+Experience unparalleled luxury in the heart of the city. Where comfort meets sophistication, and every stay becomes an unforgettable memory." title="LuxeHaven" url="https://mustafa-mmd.github.io/luxeHaven/"  img={img3}/>
 
-      {/* <Card descripition="Power your finance,
-        grow your buisness
-        Accept payments from customers.Automates payout to vendors and employees.Never run out of working capital." title="Razerpay" url="https://mustafa-mmd.github.io/razerpay/"  img={img3}/> */}
+<Card descripition="Step into style with our premium sunglasses! Trendy, UV-protected, and designed for ultimate comfort. Shop now and elevate your look! " title="sunglasses store" url="https://pakshades-8gz5.vercel.app/"  img={img5}/>
+
+<Card descripition="Time to get your house clean and in order.To  have a good air quality is as simple as moving away from the city to a quiet suburb or rural enviroment" title="Smart.uv " url="https://mustafa-mmd.github.io/Blog-Website-1/" img={img1}/>
+
+<Card descripition="We help you make modern interior.We will help you to make an elegant and luxurious interior designed by professional interior designer." title="Furni.interior design" url="https://mustafa-mmd.github.io/ecommerce-websit/"  img={img2}/>
 
       <Card descripition="Here you can find Modern chair if you have to need any type of chair you can easily buy here Anytypes of varities available here .And the price is also low so visit our website." title="Modern Chairs" url="https://mustafa-mmd.github.io/Modern-Chair/"  img={img4}/>
 
-      <Card descripition="Step into style with our premium sunglasses! Trendy, UV-protected, and designed for ultimate comfort. Shop now and elevate your look! " title="sunglasses store" url="https://pakshades-8gz5.vercel.app/"  img={img5}/>
 
       <Card descripition="This is my image gallery.created by html and css its very amaizing and good design and also include hover effects and multiple pictures are present in this gallery." title="Gallery" url="https://mustafa-mmd.github.io/gallery-img-project/"  img={img6}/>
 
