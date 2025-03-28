@@ -25,8 +25,8 @@ function Projects() {
       <h1>projects</h1>
       <div className='procont'>
 
-   <Card descripition="Welcome to Luxe Haven
-Experience unparalleled luxury in the heart of the city. Where comfort meets sophistication, and every stay becomes an unforgettable memory." title="LuxeHaven" url="https://mustafa-mmd.github.io/luxeHaven/"  img={img3}/>
+   {/* <Card descripition="Welcome to Luxe Haven
+Experience unparalleled luxury in the heart of the city. Where comfort meets sophistication, and every stay becomes an unforgettable memory." title="LuxeHaven" url="https://mustafa-mmd.github.io/luxeHaven/"  img={img3}/> */}
 
 <Card descripition="Step into style with our premium sunglasses! Trendy, UV-protected, and designed for ultimate comfort. Shop now and elevate your look! " title="sunglasses store" url="https://pakshades-8gz5.vercel.app/"  img={img5}/>
 
