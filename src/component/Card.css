@@ -169,14 +169,16 @@
   font-size: 1.6rem;
   font-weight: bold;
   margin: 12px 0;
-  color: #fff;
+  /* color: #fff; */
+  color: #111111b0;;
   text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Description */
 .smalldesc {
   font-size: 1rem;
-  color: #ddd;
+  /* color: #ddd; */
+  color: #1c2833;
   margin-bottom: 16px;
   opacity: 0.9;
 }

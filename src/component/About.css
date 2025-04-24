@@ -5,8 +5,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 60px 10%;
-  background: linear-gradient(135deg, #1e1e1e, #292929);
-  color: white;
+  /* background: linear-gradient(135deg, #1e1e1e, #292929); */
+  background-color: #e7f0f3fb;
+  /* color: white; */
+  color: #1f1d1d;
   flex-wrap: wrap;
 }
 
@@ -43,7 +45,8 @@
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 1.8;
-  color: #ddd;
+  /* color: #ddd; */
+  color: #1f1d1d;
   text-align: justify;
 }
 
@@ -63,13 +66,13 @@
   width: 80%;
   max-width: 400px;
   border-radius: 15px;
-  box-shadow: 0px 8px 15px rgba(255, 65, 108, 0.3);
+  box-shadow: 0px 8px 15px rgba(0, 1, 23, 0.846);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .aboutright img:hover {
   transform: scale(1.05);
-  box-shadow: 0px 12px 20px rgba(255, 65, 108, 0.5);
+  box-shadow: 0px 12px 20px rgba(28, 1, 10, 0.849);
 }
 
 /* Animations */

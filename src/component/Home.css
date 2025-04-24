@@ -81,8 +81,11 @@ border-bottom: 2px solid;
     align-items: center;
     justify-content: space-between;
     padding: 60px 8%;
-    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-    color: white;
+    /* background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); */
+    
+    background-color:#ecf0f1 ;
+    /* color: white; */
+    color: #17202a;
     flex-wrap: wrap;
     min-height: 100vh;
     overflow: hidden;
@@ -99,7 +102,7 @@ border-bottom: 2px solid;
   .intro h1 {
     font-size: 42px;
     font-family: "Playfair Display", serif;
-    color: #ff758c;
+    color:rgba(7, 39, 94, 0.887);
     margin-bottom: 10px;
     animation: fadeUp 1.2s ease-in-out;
   }
@@ -108,10 +111,11 @@ border-bottom: 2px solid;
     font-size: 28px;
     font-weight: bold;
     font-family: "Poppins", sans-serif;
-    color: #f8c291;
+    /* color: #f8c291; */
+    color: #2c3e50;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 3px solid #f8c291;
+    border-right: 3px solid #373635;
     display: inline-block;
     padding-right: 5px;
     animation: typing 3s steps(30) infinite alternate, blink 0.7s infinite;
@@ -135,7 +139,8 @@ border-bottom: 2px solid;
   .intro h4 {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
-    color: #ddd;
+    /* color: #ddd; */
+    color: #17202ab4;
     margin: 8px 0;
     opacity: 0;
     transform: translateY(20px);
@@ -150,7 +155,7 @@ border-bottom: 2px solid;
   }
   
   .btn-primary {
-    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    background: linear-gradient(135deg, #f8a8b5, #f297bd);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -165,7 +170,7 @@ border-bottom: 2px solid;
   
   .btn-primary:hover {
     transform: scale(1.05);
-    box-shadow: 0px 5px 15px rgba(255, 65, 108, 0.5);
+    box-shadow: 0px 5px 15px rgba(241, 207, 215, 0.5);
   }
   
   /* Profile Image */
@@ -173,14 +178,14 @@ border-bottom: 2px solid;
     width: 320px;
     max-width: 100%;
     border-radius: 50%;
-    box-shadow: 0px 6px 12px rgba(255, 65, 108, 0.3);
+    box-shadow: 0px 6px 12px rgba(201, 238, 121, 0.3);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     animation: zoomIn 1s ease-in-out;
   }
   
   .profile:hover {
     transform: scale(1.05);
-    box-shadow: 0px 10px 15px rgba(255, 65, 108, 0.5);
+    box-shadow: 0px 10px 15px rgba(44, 45, 45, 0.755);
   }
   
   /* Social Icons */

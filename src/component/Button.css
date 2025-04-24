@@ -27,7 +27,9 @@ transition:0.3s ease-in-out ;
   transform: scaleX(0);
   transform-origin: 0 100%;
  font-size: larger;
-  background-color: #6627f086;
+  /* background-color: #6627f086; */
+  background-color: #530df886;
+
   transition: all 1s;
   z-index: -1;
   /* border-radius: 5px; */

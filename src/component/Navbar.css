@@ -5,16 +5,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(90deg, #302b63, #24243e);
+  /* background: linear-gradient(90deg, #302b63, #24243e); */
+  /* background-color:#f0f3f4; */
+  background-color: #e5e7e9;
   padding: 15px 8%;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  
+  /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); */
 }
 
  /*  Stylish Logo Design */
 .logo {
   font-size: 30px;
   font-family: "Great Vibes", cursive;
-  color: white;
+  /* color: white; */
+  color: #17202a;
   text-transform: capitalize;
   font-style: italic;
   transition: 0.3s;
@@ -36,7 +40,8 @@
 .nav-links li a {
   text-decoration: none;
   font-size: 18px;
-  color: white;
+  /* color: white; */
+  color: #17202a;
   font-weight: 500;
   padding: 8px 12px;
   border-radius: 5px;
@@ -47,7 +52,8 @@
 .nav-links a:hover,
 .nav-links .active {
   background: #ff758c;
-  color: white;
+  /* color: white; */
+  color: #17202a;
 }
 
 /*  Hamburger Menu (Hidden on Desktop) */

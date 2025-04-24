@@ -6,9 +6,9 @@
 
 }
 body{
-  background-color: rgb(30,30,30);
+  /* background-color: rgb(30,30,30); */
   
-
+background-color: #f2f3f4 ;
   color: white;
   overflow: hidden;
   overflow-y: scroll;
