@@ -181,6 +181,7 @@
       flex-direction: column-reverse;
       text-align: center;
       padding: 50px 5%;
+      margin-top: 100px;
     }
   
     .intro {
