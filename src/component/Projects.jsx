@@ -6,7 +6,7 @@ import img2 from "../assets/ecommerce.png"
 import img3 from "../assets/luxhaven.jpeg"
 import img4 from "../assets/chair2.jpeg"
 import img5 from "../assets/sunglass.jpg"
-import img6 from "../assets/gallery.jpeg"
+import img6 from "../assets/currency-converter.png"
 import img7 from "../assets/coffe.jpg"
 import img8 from "../assets/weatherapp.jpeg"
 import img9 from "../assets/tic-toc-toe.jpeg"
@@ -37,7 +37,7 @@ Experience unparalleled luxury in the heart of the city. Where comfort meets sop
       <Card descripition="Here you can find Modern chair if you have to need any type of chair you can easily buy here Anytypes of varities available here .And the price is also low so visit our website." title="Modern Chairs" url="https://mustafa-mmd.github.io/Modern-Chair/"  img={img4}/>
 
 
-      <Card descripition="This is my image gallery.created by html and css its very amaizing and good design and also include hover effects and multiple pictures are present in this gallery." title="Gallery" url="https://mustafa-mmd.github.io/gallery-img-project/"  img={img6}/>
+      <Card descripition="Allows users to easily convert amounts between different currencies. It features a simple UI with input fields and dropdowns for currency selection. Real-time conversion happens dynamically based on exchange rates." title="currency converter" url="https://mustafa-mmd.github.io/currency-converter/"  img={img6}/>
 
       <Card descripition="
       The coffe you will fall in love with slip savour and spread the love where every cup is a caffeinated hug at our cozy cofee haven. " title="Coffe Shope
@@ -48,7 +48,7 @@ Experience unparalleled luxury in the heart of the city. Where comfort meets sop
       <Card descripition="This is Tic-Tac-To game application .Here play two player only x and 0 if x fill firstly horizentally or vertically the given boxes so the winer is x otherwise the winner is 0." title="Tic Toc Toe Game" url="https://mustafa-mmd.github.io/Tic-Toc-Toe/"  img={img9}/>
 
       <Card descripition="This is Todo list aplication . you everything write in the input and then you clicked to the add button automatically added in the list .if you want to delete your activities simply press delete button.
-" title="Todo list" url="https://mustafa-mmd.github.io/todo-list-project/"  img={img10}/>
+" title="Todo list" url="https://mustafa-mmd.github.io/todo-list-in-js/"  img={img10}/>
 
       <Card descripition="This is ecommerce store application in this store have different products. Use redux tolkit for statemanagement and also used Api. when we click to add to cart button the product automatically add to another card page" title="Ecommerce Store" url="https://silver-palmier-d293fe.netlify.app/" img={img11}/>
 
