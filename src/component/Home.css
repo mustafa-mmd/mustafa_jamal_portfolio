@@ -103,7 +103,7 @@
     width: 320px;
     max-width: 100%;
     border-radius: 50%;
-    box-shadow: 0px 6px 12px rgba(201, 238, 121, 0.3);
+    box-shadow: 0px 6px 12px rgba(136, 194, 223, 0.3);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     animation: zoomIn 1s ease-in-out;
   }
