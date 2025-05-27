@@ -1,4 +1,4 @@
-/* ======== Global Styles for Skills Section ======== */
+
 h1 {
   text-align: center;
   font-size: 2.5rem;
@@ -22,7 +22,7 @@ h1 {
 
 /* Individual Skill Box */
 .skillbox {
-  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  background: linear-gradient(135deg, #597fe7, #6c96ee);
   padding: 20px;
   border-radius: 12px;
   display: flex;
