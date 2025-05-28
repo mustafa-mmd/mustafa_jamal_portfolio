@@ -61,7 +61,7 @@ h1 {
   opacity: 0.5;
 }
 
-/* === FIXED LOGO SIZES === */
+/*  FIXED LOGO SIZES */
 .pic {
   width: 70px !important;
   height: 70px !important;
@@ -130,8 +130,8 @@ h5 {
     padding: 15px;
   }
   .pic {
-    width: 50px !important;
-    height: 50px !important;
+    width: 65px !important;
+    height: 65px !important;
   }
   h5 {
     font-size: 0.9rem;

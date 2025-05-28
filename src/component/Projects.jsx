@@ -2,11 +2,11 @@ import React from 'react'
 import "./Projects.css"
 import Card from './Card'
 import img1 from "../assets/blog1.jpeg"
-import img2 from "../assets/ecommerce.png"
+import img2 from "../assets/ecommerce.jpg"
 import img3 from "../assets/luxhaven.jpeg"
 import img4 from "../assets/chair2.jpeg"
 import img5 from "../assets/sunglass.jpg"
-import img6 from "../assets/currency-converter.png"
+import img6 from "../assets/currency-converter.jpg"
 import img7 from "../assets/coffe.jpg"
 import img8 from "../assets/weatherapp.jpeg"
 import img9 from "../assets/tic-toc-toe.jpeg"
@@ -15,9 +15,9 @@ import img11 from "../assets/ecommerceStore.jpeg"
 import img12 from "../assets/passwordgen.jpg"
 import img13 from "../assets/counter.jpeg"
 import img14 from "../assets/calculator.jpg"
-import img15 from "../assets/clg.png"
+import img15 from "../assets/clg.jpg"
 import img16 from "../assets/userlist.jpeg"
-import img17 from "../assets/reactecommerce.png"
+import img17 from "../assets/reactecommerce.jpg"
 
 function Projects() {
   return (

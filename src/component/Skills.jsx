@@ -1,19 +1,19 @@
 import React from 'react';
 import "./Skills.css";
-import img1 from "../assets/html.png"
-import img2 from "../assets/css.png"
+import img1 from "../assets/html.jpg"
+import img2 from "../assets/css.jpg"
 import img3 from "../assets/tailwind.svg"
-import img4 from "../assets/js.png"
-import img5 from "../assets/typescript.png"
-import img6 from "../assets/react.png"
-import img7 from "../assets/redux.png"
-import img8 from "../assets/nodejs.png"
-import img9 from "../assets/express.png"
-import img10 from "../assets/mongodb.png"
-import img11 from "../assets/github.png"
-import img12 from "../assets/vercel.png"
-import img13 from "../assets/netlify.png"
-import img14 from "../assets/bootstrap.png"
+import img4 from "../assets/js.jpg"
+import img5 from "../assets/typescript.jpg"
+import img6 from "../assets/react.jpg"
+import img7 from "../assets/redux.jpg"
+import img8 from "../assets/nodejs.jpg"
+import img9 from "../assets/express.jpg"
+import img10 from "../assets/mongodb.jpg"
+import img11 from "../assets/github.jpg"
+import img12 from "../assets/vercel.jpg"
+import img13 from "../assets/netlify.jpg"
+import img14 from "../assets/bootstrap.jpg"
 function Skills() {
   return (
     <>
