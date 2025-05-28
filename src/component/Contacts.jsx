@@ -72,6 +72,13 @@ const onsubmit = async (event) => {
 <li>responsive web design</li>
 <li>react development</li>
 <li>single page application</li>
+<li>RESTful API Development</li>
+<li>User Authentication & Authorization</li>
+<li>Real-time Applications</li>
+<li>File Upload & Management</li>
+<li>Email Notification & Alerts</li>
+<li>Payment Gateway Integration</li>
+  
     </ul>
     
    

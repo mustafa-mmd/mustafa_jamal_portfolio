@@ -1,57 +1,11 @@
-/* .serviceCard{
-  width: 250px;
-  height: 200px;
-  background-color: #011e32;
-  
 
-  border-radius: 8px;
-  z-index: 1;
-  padding: 6px;
- }
- 
- .tools {
-  display: flex;
-  align-items: center;
-  padding: 9px;
- }
- 
- .circle {
-  padding: 0 4px;
- }
- 
- .box {
-  display: inline-block;
-  align-items: center;
-  width: 10px;
-  height: 10px;
-  padding: 1px;
-  border-radius: 50%;
- }
- 
- .red {
-  background-color: #ff605c;
- }
- 
- .yellow {
-  background-color: #ffbd44;
- }
- 
- .green {
-  background-color: #00ca4e;
- }
- h3{
-  color: rgb(183, 234, 248);
- } */
-
- 
- /* Main Service Card Styling */
 .serviceCard {
   width: 280px;
-  height: 220px;
+  height: 230px;
   background-color: #011e32;
   border-radius: 12px;
   z-index: 1;
-  padding: 10px;
+  padding: 12px;
   position: relative;
   transition: all 0.4s ease-in-out;
   box-shadow: 0px 5px 15px rgba(1, 30, 50, 0.3);

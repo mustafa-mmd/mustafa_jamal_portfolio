@@ -5,7 +5,7 @@
 .servicecont{
   /* display: flex; */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   place-items: center;
   row-gap: 20px;
   

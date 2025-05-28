@@ -90,6 +90,7 @@
   width: auto;
   color:#414141;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -127,5 +128,7 @@
   .fullfoter {
     flex-direction: column;
     gap: 10px;
+    list-style:disc;
+     padding-left: 1rem;
   }
 }
