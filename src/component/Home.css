@@ -6,10 +6,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 60px 8%;
-    /* background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); */
-    
+    margin-top: 40px;
     background-color:#ecf0f1 ;
-    /* color: white; */
+    
     color: #17202a;
     flex-wrap: wrap;
     min-height: 100vh;
@@ -212,6 +211,7 @@
   
     .profile {
       width: 240px;
+    margin-bottom: 20px;
     }
   }
   

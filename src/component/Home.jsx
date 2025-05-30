@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 function Home() {
   useEffect(() => {
     const textElement = document.querySelector(".animated-text");
-    const text = "I'm a full stack / MERN stack developer ";
+    const text = "I'm a MERN stack developer ";
     let index = 0;
 
     const interval = setInterval(() => {
@@ -30,11 +30,10 @@ function Home() {
     <h1>Hello </h1>
     <h2 className="animated-text"></h2>
     
-<h4>Creatig Modern and Responsive  Web Application</h4>
+<h4>Creating Modern and Responsive  Web Application</h4>
 <h4>Transforming Ideas Into Interactive Masterpieces</h4> 
 <Button/>
-         
-     
+ 
 <Socialicon/>
     </div>
     <img src={img} className='profile' alt='img'></img>

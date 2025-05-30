@@ -49,7 +49,7 @@ function Navbar() {
         </li>
         <li>
           <Link to="contact" smooth={true} duration={500} offset={-94} onClick={toggleNavbar}>
-            Contact
+            Contacts
           </Link>
         </li>
       </ul>
