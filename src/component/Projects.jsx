@@ -35,10 +35,13 @@ function Projects() {
     { title: "sunglasses store", url: "https://pakshades-8gz5.vercel.app/", img: img5, descripition: "Step into style..." },
     { title: "Smart.uv", url: "https://mustafa-mmd.github.io/Blog-Website-1/", img: img1, descripition: "Time to get your house clean..." },
     { title: "Furni.interior design", url: "https://mustafa-mmd.github.io/ecommerce-websit/", img: img2, descripition: "We help you make modern interior..." },
-    { title: "Modern Chairs", url: "https://mustafa-mmd.github.io/Modern-Chair/", img: img4, descripition: "Here you can find Modern chair..." },
+     { title: "weather Application", url: "https://mustafa-mmd.github.io/weather-application/", img: img8, descripition: "Enter any country name..." },
+    
     { title: "currency converter", url: "https://mustafa-mmd.github.io/currency-converter/", img: img6, descripition: "Allows users to easily convert..." },
     { title: "Coffe Shope", url: "https://mustafa-mmd.github.io/coffee-Shop/", img: img7, descripition: "The coffee you will fall in love..." },
-    { title: "weather Application", url: "https://mustafa-mmd.github.io/weather-application/", img: img8, descripition: "Enter any country name..." },
+   
+{ title: "Modern Chairs", url: "https://mustafa-mmd.github.io/Modern-Chair/", img: img4, descripition: "Here you can find Modern chair..." },
+
     { title: "Tic Toc Toe Game", url: "https://mustafa-mmd.github.io/Tic-Toc-Toe/", img: img9, descripition: "A fun two-player game..." },
     { title: "Todo list", url: "https://mustafa-mmd.github.io/todo-list-in-js/", img: img10, descripition: "Add, delete, and manage..." },
     { title: "Ecommerce Store", url: "https://silver-palmier-d293fe.netlify.app/", img: img11, descripition: "Redux Toolkit and API-powered store..." },
