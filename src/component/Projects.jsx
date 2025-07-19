@@ -17,7 +17,8 @@ import img13 from "../assets/counter.jpeg";
 import img14 from "../assets/calculator.jpg";
 import img15 from "../assets/clg.jpg";
 import img16 from "../assets/userlist.jpeg";
-
+import img17 from "../assets/crud.jpeg";
+import img18 from "../assets/fee.jpeg";
 function Projects() {
   const [showAll, setShowAll] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
@@ -32,12 +33,21 @@ function Projects() {
   }, []);
 
   const projects = [
+    { title: "fee management system", url: "https://fee-management-system-frontend.vercel.app", img: img18, descripition: "Full-stack app to manage students and fee statuses with real-time updates" },
+
+    { title: "CRUD Operations App", url: "https://crud-operation-with-ejs.onrender.com", img: img17, descripition: "Modern web app showcasing Create, Read, Update, and Delete functionality." },
+
     { title: "sunglasses store", url: "https://pakshades-8gz5.vercel.app/", img: img5, descripition: "Step into style..." },
-    { title: "Smart.uv", url: "https://mustafa-mmd.github.io/Blog-Website-1/", img: img1, descripition: "Time to get your house clean..." },
-    { title: "Furni.interior design", url: "https://mustafa-mmd.github.io/ecommerce-websit/", img: img2, descripition: "We help you make modern interior..." },
-     { title: "weather Application", url: "https://mustafa-mmd.github.io/weather-application/", img: img8, descripition: "Enter any country name..." },
     
-    { title: "currency converter", url: "https://mustafa-mmd.github.io/currency-converter/", img: img6, descripition: "Allows users to easily convert..." },
+    { title: "Furni.interior design", url: "https://mustafa-mmd.github.io/ecommerce-websit/", img: img2, descripition: "We help you make modern interior..." },
+
+     { title: "weather Application", url: "https://mustafa-mmd.github.io/weather-application/", img: img8, descripition: "Enter any country name..." },
+
+     { title: "currency converter", url: "https://mustafa-mmd.github.io/currency-converter/", img: img6, descripition: "Allows users to easily convert..." },
+
+    { title: "Smart.uv", url: "https://mustafa-mmd.github.io/Blog-Website-1/", img: img1, descripition: "Time to get your house clean..." },
+
+
     { title: "Coffe Shope", url: "https://mustafa-mmd.github.io/coffee-Shop/", img: img7, descripition: "The coffee you will fall in love..." },
    
 { title: "Modern Chairs", url: "https://mustafa-mmd.github.io/Modern-Chair/", img: img4, descripition: "Here you can find Modern chair..." },
