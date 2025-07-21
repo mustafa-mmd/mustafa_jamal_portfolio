@@ -14,7 +14,7 @@ import img10 from "../assets/todo.jpg";
 import img11 from "../assets/ecommerceStore.jpeg";
 import img12 from "../assets/passwordgen.jpg";
 import img13 from "../assets/counter.jpeg";
-import img14 from "../assets/calculator.jpg";
+import img14 from "../assets/blog.jpeg";
 import img15 from "../assets/clg.jpg";
 import img16 from "../assets/userlist.jpeg";
 import img17 from "../assets/crud.jpeg";
@@ -35,13 +35,16 @@ function Projects() {
   const projects = [
     { title: "fee management system", url: "https://fee-management-system-frontend.vercel.app", img: img18, descripition: "Full-stack app to manage students and fee statuses with real-time updates" },
 
-    { title: "CRUD Operations App", url: "https://crud-operation-with-ejs.onrender.com", img: img17, descripition: "Modern web app showcasing Create, Read, Update, and Delete functionality." },
+    { title: "Blog App ", url: "https://frontend-of-mern-crud.vercel.app", img: img14, descripition: "Full stack app with Authentication system create,read,update,delete blogs." },
+
 
     { title: "sunglasses store", url: "https://pakshades-8gz5.vercel.app/", img: img5, descripition: "Step into style..." },
     
     { title: "Furni.interior design", url: "https://mustafa-mmd.github.io/ecommerce-websit/", img: img2, descripition: "We help you make modern interior..." },
 
      { title: "weather Application", url: "https://mustafa-mmd.github.io/weather-application/", img: img8, descripition: "Enter any country name..." },
+
+{ title: "CRUD Operations App", url: "https://crud-operation-with-ejs.onrender.com", img: img17, descripition: "Modern web app showcasing Create, Read, Update, and Delete functionality." },
 
      { title: "currency converter", url: "https://mustafa-mmd.github.io/currency-converter/", img: img6, descripition: "Allows users to easily convert..." },
 
@@ -57,7 +60,7 @@ function Projects() {
     { title: "Ecommerce Store", url: "https://silver-palmier-d293fe.netlify.app/", img: img11, descripition: "Redux Toolkit and API-powered store..." },
     { title: "Password Generator", url: "https://mustafa-mmd.github.io/passwordGenerator/", img: img12, descripition: "Generate strong passwords..." },
     { title: "Counter", url: "https://mustafa-mmd.github.io/counter/", img: img13, descripition: "Simple counter app..." },
-    { title: "Calculator", url: "https://mustafa-mmd.github.io/calculator/", img: img14, descripition: "A simple calculator..." },
+
     { title: "university website", url: "https://react-website-two-ashy.vercel.app/", img: img15, descripition: "A beautiful React university site..." },
     { title: "user list application", url: "https://66eeb11433a5bb45b23d3880--preeminent-cuchufli-05af48.netlify.app/", img: img16, descripition: "Add/delete user data..." }
   ];
