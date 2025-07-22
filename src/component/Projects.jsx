@@ -13,7 +13,7 @@ import img9 from "../assets/tic-toc-toe.jpeg";
 import img10 from "../assets/todo.jpg";
 import img11 from "../assets/ecommerceStore.jpeg";
 import img12 from "../assets/passwordgen.jpg";
-import img13 from "../assets/counter.jpeg";
+import img13 from "../assets/calculator.jpg";
 import img14 from "../assets/blog.jpeg";
 import img15 from "../assets/clg.jpg";
 import img16 from "../assets/userlist.jpeg";
@@ -59,7 +59,7 @@ function Projects() {
     { title: "Todo list", url: "https://mustafa-mmd.github.io/todo-list-in-js/", img: img10, descripition: "Add, delete, and manage..." },
     { title: "Ecommerce Store", url: "https://silver-palmier-d293fe.netlify.app/", img: img11, descripition: "Redux Toolkit and API-powered store..." },
     { title: "Password Generator", url: "https://mustafa-mmd.github.io/passwordGenerator/", img: img12, descripition: "Generate strong passwords..." },
-    { title: "Counter", url: "https://mustafa-mmd.github.io/counter/", img: img13, descripition: "Simple counter app..." },
+    { title: "Calculator", url: "https://mustafa-mmd.github.io/calculator/", img: img13, descripition: "Real calculator You can calculate here." },
 
     { title: "university website", url: "https://react-website-two-ashy.vercel.app/", img: img15, descripition: "A beautiful React university site..." },
     { title: "user list application", url: "https://66eeb11433a5bb45b23d3880--preeminent-cuchufli-05af48.netlify.app/", img: img16, descripition: "Add/delete user data..." }
