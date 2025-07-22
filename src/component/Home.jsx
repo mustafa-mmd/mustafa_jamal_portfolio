@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 function Home() {
   useEffect(() => {
     const textElement = document.querySelector(".animated-text");
-    const text = "I'm a MERN stack developer ";
+    const text = "I'm a Full Stack Developer (MERN Stack)";
     let index = 0;
 
     const interval = setInterval(() => {
@@ -18,7 +18,7 @@ function Home() {
       if (index >= text.length) {
         clearInterval(interval);
       }
-    }, 100); // Adjust speed as needed
+    }, 85); // Adjust speed as needed
 
     return () => clearInterval(interval);
   }, []);
